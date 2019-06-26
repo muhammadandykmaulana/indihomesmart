@@ -1,0 +1,1 @@
+ATTRS{idVendor}=="12d1", ATTRS{idProduct}=="1506", RUN+="/tools/modem/modem_start.sh"

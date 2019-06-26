@@ -1,0 +1,12 @@
+ADD 192.168.89.153 60 10 10 153
+ADD |              |  |  |  |
+    |              |  |  |  |
+    [IP_Addr_CAM]  |  |  |  |
+                   |  |  |  |
+            [DURASI]  |  |  |
+                      |  |  |
+           [START TIME]  |  |
+                         |  |
+               [STOP TIME]  |
+                            |
+                 [ACCOUNT ID]

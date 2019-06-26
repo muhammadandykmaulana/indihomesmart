@@ -1,0 +1,6 @@
+verbosity=1
+console=both
+overlay_prefix=sun8i-h3
+rootdev=UUID=d00b548f-42bb-44e4-aa5d-da053db3e25d
+rootfstype=ext4
+usbstoragequirks=0x2537:0x1066:u,0x2537:0x1068:u

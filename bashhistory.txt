@@ -1,0 +1,47 @@
+ll /tools/recording/
+which open_join 
+open_join 
+which open_join 
+ll /sbin/open_join 
+vi /tools/zigbee/open_join.sh 
+zigbee_control 
+zigbee_control join
+vi /tools/zigbee/zigbee_control.sh 
+zigbee_control jokn
+zigbee_control display
+ll /tools/recording/
+ll /tools/recording/*jar
+mv /root/CloudIPCamera.jar /tools/recording/
+recording_control status
+recording_control start
+recording_control status
+recording_control display
+ll /tools/recording/*mp4
+recording_control stop
+zigbee_control stop
+recording_control stop
+/tools/hostapd/hostapd_start.sh stop
+rm /tools/update/wifi_name.txt -f
+rm /tools/update/wifi_password.txt -f
+rm /tools/previous/wifi_name.txt -f
+rm /tools/rrevious/wifi_password.txt -f
+rm /var/log/hostapd.log* -f
+rm /var/log/zigbe*.log*
+rm /var/log/modem*.log*
+rm /root/.bash_history -f
+rm /var/log/umtskeeper.log* -f
+rm /tools/log/* -f
+rm /tools/zkgbee/*.ir -f
+rm -f /var/lib/dhcp/dhclient.wlan0.leases 
+rm -f /etc/modprobe.d/xradio_wlan.conf
+rm -f /tools/recording/*.mp4
+init 0
+uptime
+zigbee_control status
+zigbee_control join
+zigbee_control display | grep 00124b000ccad02f
+
+
+169.254.9.47
+169.254.7.221
+
